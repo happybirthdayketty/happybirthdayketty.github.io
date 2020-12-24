@@ -579,7 +579,7 @@ function SpchOrderList() {
 			break;
 		}
 		case 62:{
-			SpeechText = "Prosperity, good health and great future...";
+			SpeechText = "Success, good health and great future...";
 			SpeechOrdr = 63;
 			WriteSpeech();
 			break;
