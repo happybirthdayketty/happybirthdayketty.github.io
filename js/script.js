@@ -154,10 +154,10 @@ function MoonRise () {
 }
 
 function FlyX () {
-	if(ScreenWidth > 600) {
+	if(ScreenWidth > 900) {
 		document.getElementById("entry").style.left = "27%";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("entry").style.left = "8%";
 	}
 	setTimeout(FlyR, 500);
@@ -169,10 +169,10 @@ function FlyR () {
 }
 
 function FlyY () {
-	if(ScreenWidth > 600) {
+	if(ScreenWidth > 900) {
 		document.getElementById("entry").style.top = "220%";
 	}
-	else if(ScreenWidth <= 600) {
+	else if(ScreenWidth <= 900) {
 		document.getElementById("entry").style.top = "72%";
 	}
 	setTimeout(FLyTrn, 4000);
@@ -798,10 +798,10 @@ function FunctionNeg() {
 }
 
 function textRply1() {
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("ReplyBtns").style.display = "block";
 	}
 	document.getElementById("BtnPos").innerHTML = "Good";
@@ -812,10 +812,10 @@ function textRply1() {
 }
 
 function textRply2() {
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("ReplyBtns").style.display = "block";
 	}
 	document.getElementById("BtnPos").innerHTML = "Yeah";
@@ -828,10 +828,10 @@ function textRply2() {
 function textRply3() {
 	document.getElementById("giftContainer").style.display = "block";
 	document.getElementById("giftType").src = "img/flower.png";
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("ReplyBtns").style.display = "block";
 	}
 	document.getElementById("BtnPos").innerHTML = "I'll take it";
@@ -844,10 +844,10 @@ function textRply3() {
 function textRply4() {
 	document.getElementById("giftContainer").style.display = "block";
 	document.getElementById("giftType").src = "img/chocolet.png";
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("ReplyBtns").style.display = "block";
 	}
 	document.getElementById("BtnPos").innerHTML = "Okay! I'll have it";
@@ -858,10 +858,10 @@ function textRply4() {
 }
 
 function textRply5() {
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("ReplyBtns").style.display = "block";
 	}
 	document.getElementById("BtnPos").innerHTML = "Yes!";
@@ -872,10 +872,10 @@ function textRply5() {
 }
 
 function textRply6() {
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("ReplyBtns").style.display = "block";
 	}
 	document.getElementById("BtnPos").innerHTML = "Okay!";
@@ -913,10 +913,10 @@ function OpenBtn() {
 
 function AddOpen() {
 	clearTimeout(GiftTimerId5);
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("ReplyBtns").style.display = "block";
 	}
 	document.getElementById("BtnPos").innerHTML = "Open It!";
@@ -1082,10 +1082,10 @@ function FlyOutSeq() {
 }
 
 function OutX () {
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("entry").style.top = "50%";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("entry").style.top = "13%";
 	}
 	setTimeout(OutR, 1000);
@@ -1109,10 +1109,10 @@ function EndingSeq() {
 
 function Ending() {
 	document.getElementById("entry").style.display = "none";
-	if(ScreenWidth > 600){
+	if(ScreenWidth > 900){
 		document.getElementById("CakeBody").style.left = "45%";
 	}
-	else if(ScreenWidth <= 600){
+	else if(ScreenWidth <= 900){
 		document.getElementById("CakeBody").style.left = "37%";
 		setTimeout(ContentRearrange, 3000);
 	}
