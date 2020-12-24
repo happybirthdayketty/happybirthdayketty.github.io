@@ -15,6 +15,10 @@
     height: 100vh;
     background: #202020;
     font-size: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+        user-select: none;
   }
   #Cbody {
     background-image: linear-gradient(180deg, #00103a 0%, #3e5f77 100%) !important;
