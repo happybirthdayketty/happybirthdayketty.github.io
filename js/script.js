@@ -381,7 +381,6 @@ function SpchOrderList() {
 			SpeechText = "Here are some flowers for you!";
 			SpeechOrdr = 0;
 			WriteSpeech();
-			document.getElementById("giftContainer").style.display = "block";
 			TxtTimer3 = setTimeout(textRply3, 1500);	
 			break;
 		}
@@ -389,7 +388,6 @@ function SpchOrderList() {
 			SpeechText = "I brought some flowers for you!";
 			SpeechOrdr = 0;
 			WriteSpeech();
-			document.getElementById("giftContainer").style.display = "block";
 			TxtTimer3 = setTimeout(textRply3, 1500);	
 			break;
 		}
@@ -415,7 +413,6 @@ function SpchOrderList() {
 			SpeechText = "I brought some chocolate's too!";
 			SpeechOrdr = 0;
 			WriteSpeech();
-			document.getElementById("giftContainer").style.display = "block";
 			TxtTimer4 = setTimeout(textRply4, 1500);
 			break;
 		}
@@ -423,7 +420,6 @@ function SpchOrderList() {
 			SpeechText = "How about some chocolate ?";
 			SpeechOrdr = 0;
 			WriteSpeech();
-			document.getElementById("giftContainer").style.display = "block";
 			TxtTimer4 = setTimeout(textRply4, 1500);
 			break;
 		}
@@ -830,7 +826,7 @@ function textRply2() {
 }
 
 function textRply3() {
-	//document.getElementById("giftContainer").style.display = "block";
+	document.getElementById("giftContainer").style.display = "block";
 	document.getElementById("giftType").src = "img/flower.png";
 	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
@@ -846,7 +842,7 @@ function textRply3() {
 }
 
 function textRply4() {
-	//document.getElementById("giftContainer").style.display = "block";
+	document.getElementById("giftContainer").style.display = "block";
 	document.getElementById("giftType").src = "img/chocolet.png";
 	if(ScreenWidth > 900){
 		document.getElementById("ReplyBtns").style.display = "inline-flex";
